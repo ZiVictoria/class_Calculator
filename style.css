@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+#digit_first, #digit_second{
+    padding: 14px 20px;
+}
+
+.operations{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px auto;
+    gap: 10px;
+}
+
+#add, #subst, #divide, #mult{
+    background-color: #7FBCD2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 14px 20px;
+    text-transform: lowercase;
+}
+
+.result{
+    display: flex;
+    margin: 0 auto;
+}
+
+#result{
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 2em;
+    color: #FFA1CF;
+}
